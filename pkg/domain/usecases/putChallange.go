@@ -1,0 +1,10 @@
+package usecases
+
+import (
+	"context"
+	"local/desafio-diario/pkg/domain/entity"
+)
+
+func (u usecases) PutChallange(ctx context.Context, input entity.PutChallangeInput) (entity.Challange, error) {
+	return entity.Challange{}, nil
+}
